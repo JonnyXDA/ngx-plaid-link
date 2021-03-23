@@ -9,13 +9,13 @@ _This has been tested to work in at least 1 Angular 5 app as well_
 #### 1a) Install from NPM
 
 ```shell
-$ npm install ngx-plaid-link
+$ npm install ngx-plaid-link2
 ```
 
 #### 1b) Or Yarn
 
 ```shell
-$ yarn add ngx-plaid-link
+$ yarn add ngx-plaid-link2
 ```
 
 #### 2) Import the NgxPlaidLinkModule
