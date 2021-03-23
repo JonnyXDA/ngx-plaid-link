@@ -2,30 +2,30 @@
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "ngx-plaid-link",
   "description": "Angular Plaid Link Directive & Button Component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
-    "name": "Mike Roberts",
-    "url": "https://mikeroberts.engineer"
+    "name": "Jonathon Fitch",
+    "url": ""
   },
   "scripts": {
     "build": "ng-packagr -p package.json",
-    "pack-dist": "npm pack ./dist/ngx-plaid-link",
-    "publish-dist": "npm publish ./dist/ngx-plaid-link"
+    "pack-dist": "npm pack ./dist/ngx-plaid-link2",
+    "publish-dist": "npm publish ./dist/ngx-plaid-link2"
   },
   "ngPackage": {
-    "dest": "./dist/ngx-plaid-link",
+    "dest": "./dist/ngx-plaid-link2",
     "lib": {
       "entryFile": "src/public_api.ts"
     }
   },
   "license": "MIT",
-  "homepage": "https://github.com/mike-roberts/ngx-plaid-link",
+  "homepage": "https://github.com/JonnyXDA/ngx-plaid-link",
   "bugs": {
-    "url": "https://github.com/mike-roberts/ngx-plaid-link/issues"
+    "url": "https://github.com/JonnyXDA/ngx-plaid-link/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mike-roberts/ngx-plaid-link"
+    "url": "https://github.com/JonnyXDA/ngx-plaid-link"
   },
   "peerDependencies": {
     "@angular/common": "^11.0.0 || ^10.0.0 || ^9.0.0 || ^8.0.0 || ^7.0.0 || ^6.0.0",
