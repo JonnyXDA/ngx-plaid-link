@@ -7,7 +7,7 @@ function getWindow(): any {
 }
 
 @Component({
-  selector: "mr-ngx-plaid-link-button",
+  selector: "ngx-plaid-link-button",
   template: `
     <button ngxPlaidLink
             [class]="className"
@@ -21,6 +21,7 @@ function getWindow(): any {
             [selectAccount]="selectAccount"
             [token]="token"
             [webhook]="webhook"
+            [receivedRedirectUri]="receivedRedirectUri"
             [countryCodes]="countryCodes"
             (Success)="onDirectiveSuccess($event)"
             (Exit)="onDirectiveExit($event)"

@@ -32,7 +32,6 @@ export class NgxPlaidLinkDirective {
   @Output() Success: EventEmitter<PlaidOnSuccessArgs> = new EventEmitter();
 
   @Input() clientName: string;
-  
 
   @HostBinding('disabled') disabledButton: boolean;
 

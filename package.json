@@ -1,8 +1,8 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "ngx-plaid-link",
+  "name": "ngx-plaid-link2",
   "description": "Angular Plaid Link Directive & Button Component",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "author": {
     "name": "Jonathon Fitch",
     "url": ""
